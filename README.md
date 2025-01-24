@@ -54,16 +54,18 @@ This project is licensed under the AGPL v3.0 License. See the [LICENSE](LICENSE.
 
 ## Learn
 
-# Learn
-
 If you want to learn more about how to customize your Kagi Search CSS, below is a video tutorial. The video features a slightly older design of Kagi Search, but the CSS principles are the same.
 
 ![Video](https://www.youtube.com/watch?v=Xpk5TAhGasc)
 
 Also, here are some web resources about how to use CSS in general:
 
-[Kagi Custom CSS Docs](https://help.kagi.com/kagi/features/custom-css.html)
-[MDN Web Docs](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics)
-[W3Schools](https://www.w3schools.com/css/css_intro.asp)
-[Khan Academy](https://www.khanacademy.org/computing/computer-programming/html-css/intro-to-css/pt/css-basics)
-[freeCodeCamp](https://www.freecodecamp.org/news/get-started-with-css-in-5-minutes-e0804813fc3e/)
+- [Kagi Custom CSS Docs](https://help.kagi.com/kagi/features/custom-css.html)
+  
+- [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics)
+
+- [W3Schools](https://www.w3schools.com/css/css_intro.asp)
+
+- [Khan Academy](https://www.khanacademy.org/computing/computer-programming/html-css/intro-to-css/pt/css-basics)
+
+- [freeCodeCamp](https://www.freecodecamp.org/news/get-started-with-css-in-5-minutes-e0804813fc3e/)
