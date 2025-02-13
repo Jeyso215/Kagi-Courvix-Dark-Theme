@@ -1,26 +1,35 @@
 .body-content {
   background-color: #0a0b11;
-  background-image: url("https://raw.githubusercontent.com/Jeyso215/Kagi-Courvix-Dark-Theme/refs/heads/main/assets/courvix-dark.webp");
+  background-image: url("https://raw.githubusercontent.com/Jeyso215/Kagi-Courvix-Dark-Theme/main/assets/courvix-dark.webp");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position-x: center;
-  background-position-y: bottom;
+  background-position: center bottom;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0c0e15;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0063cc;
+  border-radius: 5px;
+  border: 2px solid #0c0e15;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #1e90ff;
 }
 
 .search-input-container {
   background-color: #0f111a !important;
   border: 1px solid #0063cc !important;
+  border-radius: 2rem;
   box-shadow: 0 0 8px rgba(0, 99, 204, 0.2) !important;
-}
-
-.search-input-container input {
-  color: #ffffff !important;
-  background-color: transparent !important;
-  caret-color: #0063cc !important;
-}
-
-.search-input-container input::placeholder {
-  color: #5c677d !important;
 }
 
 .search-input-container:hover {
@@ -30,19 +39,47 @@
 
 .search-input-container input {
   color: #ffffff !important;
-  caret-color: #0063cc; 
+  background-color: transparent !important;
+  caret-color: #0063cc !important;
+  padding: 0.8rem 1.2rem;
+}
+
+.search-input-container input::placeholder {
+  color: #5c677d !important;
+  opacity: 0.7;
 }
 
 .auto_suggestions {
   background: #0f111a !important;
   border: 1px solid #0063cc !important;
   border-top: none !important;
+  border-radius: 0 0 1rem 1rem;
 }
 
-.app-header.app-content-box {
+#wikipediaResults:has(div) {
+  border: 1px solid #0063cc;
+  border-radius: 10px;
+  padding: 0 1rem;
+  margin: 1rem 0;
+  background: #0c0e15;
+}
+
+.__ia-body,
+.widgetContent {
+  border: 1px solid #0a0b11;
+  border-radius: 4px;
+  background: #0c0e15;
+  color: #0063cc;
+  padding: 1rem;
+  margin: 0.5rem 0;
+}
+
+.orb_chat_footer._0_orb_chat_footer {
   background-color: #0a0b11;
+  border-top: 1px solid #0f111a;
 }
 
+.app-header.app-content-box,
 .app-box-center {
   background-color: #0a0b11;
 }
@@ -53,30 +90,9 @@
   color: #1e90ff !important;
 }
 
-#wikipediaResults:has(div) {
-  border: 1px solid #0063cc;
-  border-radius: 10px;
-  padding: 0 1rem;
-  box-sizing: border-box;
-  height: fit-content;
-}
-
 .header_links,
 ._0_landing_filters,
 ._0_land_cat_box,
 .land_adv_search_btn {
   display: none !important;
-}
-
-.__ia-body,
-.widgetContent {
-  border: 1px solid #0a0b11;
-  border-radius: 4px;
-  background: #0a0b11;
-  color: #0063cc;
-  padding: 1rem;
-}
-
-.orb_chat_footer._0_orb_chat_footer {
-  background-color: #0a0b11;
 }
